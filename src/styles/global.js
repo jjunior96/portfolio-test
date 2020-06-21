@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #fff;
     color: #1F2C73;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased !important;
   }
 `;

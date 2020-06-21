@@ -1,10 +1,13 @@
 import React from 'react';
 
+import MenuLinks from '../MenuLinks';
+
 import * as S from './styled';
 
 const Header = () => (
   <S.HeaderWrapper>
-    <h1>Header</h1>
+    <S.HeaderLogo to="/">Header</S.HeaderLogo>
+    <MenuLinks />
   </S.HeaderWrapper>
 );
 
