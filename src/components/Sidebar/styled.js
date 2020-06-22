@@ -1,17 +1,18 @@
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-export const HeaderWrapper = styled.section`
+export const SidebarWrapper = styled.section`
   display: flex;
-  width: 100%;
-  height: 80px;
+  width: 24rem;
+  height: 100vh;
+  flex-direction: column;
   background: #0d0d0d;
   align-items: center;
-  padding: 0 250px;
-  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
 `;
 
-export const HeaderLogo = styled(Link)`
+export const SidebarLogo = styled(Link)`
   text-decoration: none;
   color: #fff;
   font-weight: 800;
