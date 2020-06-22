@@ -14,6 +14,8 @@ const GlobalStyle = createGlobalStyle`
     background: #fff;
     color: #1F2C73;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased !important;
   }
 `;
