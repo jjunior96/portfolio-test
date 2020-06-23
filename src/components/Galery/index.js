@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Photo from '../Photo';
+
 import * as S from './styled';
 
 const Galery = () => (
   <S.GaleryWrapper>
-    <h1>Galery</h1>
+    <Photo />
+    <Photo />
+    <Photo />
+    <Photo />
   </S.GaleryWrapper>
 );
 

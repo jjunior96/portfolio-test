@@ -1,20 +1,22 @@
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 export const MenuLinksWrapper = styled.nav``;
 
 export const MenuLinksList = styled.ul`
   font-size: 1.1rem;
   font-weight: 300;
-  display: flex;
-  justify-content: space-between;
 `;
 
 export const MenuLinksItem = styled.li`
-  color: #fff;
-  text-decoration: none;
   list-style-type: none;
   padding: 0.4rem;
   cursor: pointer;
+`;
+
+export const MenuLinkLink = styled(Link)`
+  color: #fff;
+  text-decoration: none;
   transition: color 0.4s;
 
   &:hover {
