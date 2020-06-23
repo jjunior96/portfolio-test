@@ -1,15 +1,16 @@
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-export const SidebarWrapper = styled.section`
+export const SidebarWrapper = styled.aside`
   display: flex;
   width: 24rem;
   height: 100vh;
   flex-direction: column;
   background: #0d0d0d;
   align-items: center;
-  padding: 2rem;
+  padding: 4rem;
   position: fixed;
+  text-align: center;
 `;
 
 export const SidebarLogo = styled(Link)`
