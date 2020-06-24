@@ -1,5 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 
+/* 
+  #322E40
+  #4E4BA6
+  #44428C
+  #F2DE77
+  #0D0D0D
+*/
+
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
