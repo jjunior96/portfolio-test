@@ -15,9 +15,11 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
+
   html, body, #root {
     height: 100%;
   }
+  
   body {
     background: #fff;
     color: #1F2C73;
