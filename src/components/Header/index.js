@@ -1,10 +1,12 @@
 import React from 'react';
 
+import HeaderTitle from '../HeaderTitle';
+
 import * as S from './styled';
 
 const Header = () => (
   <S.HeaderWrapper>
-    <S.HeaderTitle>Title</S.HeaderTitle>
+    <HeaderTitle />
   </S.HeaderWrapper>
 );
 
