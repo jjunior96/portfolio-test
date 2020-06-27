@@ -5,4 +5,5 @@ export const HeaderTitle = styled(Link)`
   font-size: 3rem;
   color: #44428c;
   text-decoration: none;
+  margin-left: 10rem;
 `;
