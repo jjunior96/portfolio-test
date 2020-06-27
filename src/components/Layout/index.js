@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Sidebar from '../Sidebar';
+import Sidebar from '../Sidebar';
 import Header from '../Header';
 import Footer from '../Footer';
 import GlobalStyles from '../../styles/global';
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-      {/* <Sidebar /> */}
+      <Sidebar />
       <Header />
       {children}
       <Footer />
