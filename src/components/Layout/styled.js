@@ -11,9 +11,9 @@ export const LayoutWrapper = styled.section`
   /* grid-template-rows: auto 100vh auto; */
   /* grid-template-columns: 1fr 3fr; */
 
-  /* padding: 32px;
-  max-width: 1140px;
-  margin: 0 auto; */
+  /* padding: 32px; */
+  /* max-width: 1140px; */
+  /* margin: 0 auto; */
 
   img {
     max-width: 100%;
