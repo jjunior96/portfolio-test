@@ -24,7 +24,8 @@ export const PhotoWrapper = styled.article`
   /* 
   position: relative;
   overflow: hidden;
-  display: inline-block; */
+  display: inline-block; 
+  */
 
   &:hover img {
     transform: scale(1.1);
