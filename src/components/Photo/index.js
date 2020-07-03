@@ -21,7 +21,14 @@ const Photo = () => {
 
   return (
     <S.PhotoWrapper>
-      <Img fluid={corvo.childImageSharp.fluid} alt="Desenho Corvo" fadeIn />
+      <S.PhotoItem>
+        <Img
+          fluid={corvo.childImageSharp.fluid}
+          alt="Desenho Corvo"
+          objectFit="cover"
+          objectPosition="50% 50%"
+        />
+      </S.PhotoItem>
     </S.PhotoWrapper>
   );
 };
