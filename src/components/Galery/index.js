@@ -6,7 +6,7 @@ import * as S from './styled';
 
 const Galery = () => (
   <S.GaleryWrapper>
-    <Photo />
+    <Photo alt="Tucanos" />
     <Photo />
     <Photo />
     <Photo />

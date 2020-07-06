@@ -9,10 +9,10 @@ export const GaleryWrapper = styled.ul`
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 12px;
+  grid-gap: 16px;
   margin: 10rem;
   margin-top: 32px;
-  margin-left: 34rem;
+  /* margin-left: 34rem; */
   list-style: none;
 
   img {
