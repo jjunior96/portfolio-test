@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Sidebar from '../Sidebar';
+// import Sidebar from '../Sidebar';
 import Header from '../Header';
 import Footer from '../Footer';
 import GlobalStyles from '../../styles/global';
@@ -11,20 +11,10 @@ const Layout = ({ children }) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-
-      {/* <S.LayoutSidebar> */}
-      <Sidebar />
-      {/* </S.LayoutSidebar> */}
-
-      {/* <S.LayoutHeader> */}
+      {/* <Sidebar /> */}
       <Header />
-      {/* </S.LayoutHeader> */}
-
       {children}
-
-      {/* <S.LayoutFooter className="footer1"> */}
       <Footer />
-      {/* </S.LayoutFooter> */}
     </S.LayoutWrapper>
   );
 };

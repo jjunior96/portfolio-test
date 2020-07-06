@@ -14,8 +14,6 @@ export const PhotoList = styled.ul``;
 
 export const PhotoItem = styled.article`
   width: 100%;
-  /* padding: 0 5px; */
-  /* margin-bottom: 10px; */
 
   img:hover {
     width: 100% !important;

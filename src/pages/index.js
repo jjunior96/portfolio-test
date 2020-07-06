@@ -7,13 +7,15 @@ import SEO from '../components/seo';
 
 const IndexPage = ({ Photos }) => {
   return (
-    <Layout>
-      <SEO title="Home" />
-      <Helmet>
-        <title>Home</title>
-      </Helmet>
-      <Galery>{Photos}</Galery>
-    </Layout>
+    <>
+      <Layout>
+        <SEO title="Home" />
+        <Helmet>
+          <title>Home</title>
+        </Helmet>
+        <Galery>{Photos}</Galery>
+      </Layout>
+    </>
   );
 };
 
