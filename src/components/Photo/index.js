@@ -5,10 +5,10 @@ import Img from 'gatsby-image';
 import * as S from './styled';
 
 const Photo = () => {
-  const { corvo } = useStaticQuery(
+  const { image } = useStaticQuery(
     graphql`
       query {
-        corvo: file(relativePath: { eq: "21.jpg" }) {
+        image: file(relativePath: { eq: "21.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
@@ -23,8 +23,8 @@ const Photo = () => {
     <S.PhotoWrapper>
       <S.PhotoItem>
         <Img
-          fluid={corvo.childImageSharp.fluid}
-          alt="Desenho Corvo"
+          fluid={image.childImageSharp.fluid}
+          alt="Desenho image"
           objectFit="cover"
           objectPosition="50% 50%"
         />
