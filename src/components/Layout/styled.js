@@ -15,6 +15,10 @@ export const LayoutWrapper = styled.section`
   /* max-width: 1140px; */
   /* margin: 0 auto; */
 
+  min-height: calc(100vh - 121px);
+  max-width: 1800px;
+  margin: 0 auto;
+
   img {
     max-width: 100%;
   }
