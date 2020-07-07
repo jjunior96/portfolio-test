@@ -7,8 +7,16 @@ import * as S from './styled';
 
 const Header = () => (
   <S.HeaderWrapper>
-    <HeaderTitle />
-    <Navigation />
+    <S.HeaderContainer>
+      <S.HeaderMain>
+        <S.HeaderLogo>
+          <HeaderTitle />
+        </S.HeaderLogo>
+        <S.HeaderMenu>
+          <Navigation />
+        </S.HeaderMenu>
+      </S.HeaderMain>
+    </S.HeaderContainer>
   </S.HeaderWrapper>
 );
 

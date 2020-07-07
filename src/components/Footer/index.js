@@ -4,7 +4,7 @@ import * as S from './styled';
 
 const Footer = () => (
   <S.FooterWrapper>
-    <h1>Footer</h1>
+    <S.FooterInfo>Footer</S.FooterInfo>
   </S.FooterWrapper>
 );
 

@@ -27,6 +27,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased !important;
+    /* min-height:100%; position:relative; */
   }
 `;
 
